@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    background: #405e9b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  0.5px solid #133783;
+
+}
+
+header img{
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 170px;
+    height: 70px;
+
+}
+header .login{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 210px;
+
+    
+    
+
+}
+header form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .contras{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 15px;
+    margin-top: 14px;
+}
+
+.login .correo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+
+}
+
+.contras label{
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    font-family: 'Noto Sans', sans-serif;
+  
+
+}
+
+.contras p{
+    color: #9cb4d8;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.contras input{
+    border: 0.5px solid #133783;
+    width: 120px;
+    margin-bottom: 1px;
+}
+
+.correo label{
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 5px;
+  
+
+}
+
+.correo input{
+    border: 0.5px solid #133783;
+    width: 120px;
+    margin-bottom: 5px;
+    height: 15px;
+}
+
+
+.login form > a{
+    color: #ffffff;
+    text-decoration: none;
+    background: #4267b2;
+    width: 80px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 2px;
+    border: 0.5px solid #133783;
+    margin-top: 10px;
+
+    
+}
