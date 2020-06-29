@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
 }
@@ -58,7 +58,7 @@ header form{
     font-weight: 600;
 
     margin-bottom: 5px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   
 
 }
@@ -79,7 +79,7 @@ header form{
     color: #ffffff;
     font-size: 9px;
     font-weight: 600;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
   
 
@@ -103,7 +103,7 @@ header form{
     text-align: center;
     font-weight: 600;
     padding-top: 2px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 2px;
     border: 0.5px solid #133783;
     margin-top: 10px;

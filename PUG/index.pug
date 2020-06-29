@@ -5,17 +5,23 @@ block contenidos
         .hero
             .titles
                 h1 Inicios de sesión recientes
-                h2 Haz clic en tu foto o agrega una cuenta.
+                h2 Haz clic en tu foto o grega una cuenta.
             .cards
                 .card
                     img(src="/IMG/img2.jpg", alt="")
                     .name
                         h4 Diego
 
-                .card
+                .card2
                     img(class="add" src="/IMG/add.png", alt="")
-                    .name
-                        h4 Diego
+                    .nameadd
+                        h4 Agregar Cuenta
         .formulario
+            .titles
+            form(action="submit")
+                input(type="text" placeolder="Nombre")
+                input(type="text" placeolder="Apellido")
+                input(type="text" placeolder="Número de celular o correo electrónico")
+                input(type="password" placeolder="Contraseña")
 
 
